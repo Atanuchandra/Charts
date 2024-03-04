@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+}
+
+.card {
+    position: relative;
+    /* width: 400px; */
+    /* padding: 10px; */
+}
+
+.additionaldata {
+    display: none;
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 24vw;
+    background: white;
+    padding: 17px;
+}
+
+.card:hover .additionaldata {
+    display: block;
+}
+
+.recharts-wrapper{
+    position: unset !important; 
+}
+
+
